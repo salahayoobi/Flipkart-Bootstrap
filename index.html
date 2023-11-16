@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Bootstrap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body style="overflow-x: hidden;">
+<!-- -------------------------------Navbar Start--------------------------------- -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="images/Flipkart logo.svg" style="height: 40px;" alt="">
+            </a>
+            <button class="navbar-toggler"
+            type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-none d-lg-inline-flex" style="width: 330px; margin-left: 60px;">
+                <button type="button" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                  </button>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">
+                            <img src="icons/seller icon.svg" alt="">
+                            <span class="d-none d-md-inline">Become a seller</span>
+                            <span class="d-sm-none">Become a Seller</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link
+                        dropdown-toggle"
+                        id="userNavbarDropdown" role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                            <img src="icons/user icon.svg" alt="">
+                            <span class="d-none d-md-inline">Salah</span>
+                            <span class="d-sm-none">Salah</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="userNavbarDropdown">
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/User-icon.svg" alt="">
+                                My Profile
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Supercoin-icon.svg" alt="">
+                                SuperCoin Zone
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Pluszone-icon.svg" alt="">
+                                Flipkart Plus Zone
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Orders-icon.svg" alt="">
+                                Orders
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Wishlist-icon.svg" alt="">
+                                Wishlist
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Coupons-icon.svg" alt="">
+                                Coupons
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Giftcard-icon.svg" alt="">
+                                Gift Cards
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Notifications-icon.svg" alt="">
+                                Notifications
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Logout-icon.svg" alt="">
+                                Logout
+                            </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img src="icons/cart.svg" alt="">
+                            <span class="d-none d-md-inline">Cart</span>
+                            <span class="d-sm-none">Cart</span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link"
+                        id="optionsNavbarDropdown" role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                            <img src="icons/threedot.svg" alt="">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="optionsNavbarDropdown">
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Notifications-icon.svg" alt="">
+                                Notification Preferences
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Customercare-icon.svg" alt="">
+                                24X7 Customer Care
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/Advertise-icon.svg" alt="">
+                                Advertise
+                            </a></li>
+                            <li><a href="#" class="dropdown-item">
+                                <img src="images/DownloadApp-icon.svg" alt="">
+                                Download App
+                            </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- -------------------------------Navbar End--------------------------------- -->
+
+    <div class="container categories-container">
+        <div class="row row-cols-12 flex-nowrap" style="width: 100%; column-gap: 15px;">
+            <div class="col-auto" style="cursor: pointer;">
+                <a href="offers.html" style="text-decoration: none; color: inherit;">
+                    <div class="offers">
+                        <img src="images/offers.jpg">
+                        <p>Top Offers</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-auto">
+                <div class="mobile" style="display: flex; flex-direction: column; align-items: center;">
+                    <img src="images/mobile.jpg">
+                    <p>Mobiles & Tablets</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="electronics">
+                    <img src="images/electronics.jpg">
+                    <p>Electronics</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="tv">
+                    <img src="images/TV.jpg">
+                    <p>TVs & Appliances</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="fashion">
+                    <img src="images/fashion.jpg">
+                    <p>Fashion</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="beauty">
+                    <img src="images/beauty.jpg">
+                    <p>Beauty</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="home">
+                    <img src="images/home.jpg">
+                    <p>Home & Kitchen</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="furniture">
+                    <img src="images/furniture.jpg">
+                    <p>Furniture</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="flights">
+                    <img src="images/flights.jpg">
+                    <p>Flights</p>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="grocery">
+                    <img src="images/grocery.jpg">
+                    <p>Grocery</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="images/Slide1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/Slide2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/Slide3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/Slide4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="images/Slide5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <img src="images/sbi.webp" style="width: 100%; margin-top: 15px;" alt="">
+    </div>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-6" style="margin: 0 15px;">
+        <div class="col d-flex">
+            <div class="card w-100">
+                <div class="card-header-img">
+                    <img src="images/pixel-7a.jpeg" class="card-img-top" alt="">
+                </div>
+                
+                <div class="card-body" style="text-align: center;">
+                    <p style="margin: 0;">Google Pixel 7a</p>
+                    <p class="fw-bold">incl of offers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card w-100">
+                <div class="card-header-img">
+                    <img src="images/s22.jpeg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body" style="text-align: center;">
+                    <p style="margin: 0;">Samsung S22</p>
+                    <p class="fw-bold">incl of offers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card w-100">
+                <div class="card-header-img">
+                    <img src="images/google-pixel.jpeg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body" style="text-align: center;">
+                    <p style="margin: 0;">Google Pixel 7</p>
+                    <p class="fw-bold">incl of offers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card w-100">
+                <div class="card-header-img">
+                    <img src="images/poco-f5.jpeg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body" style="text-align: center;">
+                    <p style="margin: 0;">Poco F5</p>
+                    <p class="fw-bold">incl of offers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card w-100">
+                <div class="card-header-img">
+                    <img src="images/realme-11pro.jpeg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body" style="text-align: center;">
+                    <p style="margin: 0;">Realme 11Pro</p>
+                    <p class="fw-bold">incl of offers</p>
+                </div>
+            </div>
+        </div>
+        <div class="col d-flex">
+            <div class="card w-100">
+                <div class="card-header-img">
+                    <img src="images/realme-11x.jpeg" class="card-img-top" alt="">
+                </div>
+                <div class="card-body" style="text-align: center;">
+                    <p style="margin: 0;">Realme 11X</p>
+                    <p class="fw-bold">incl of offers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mobile-offer">
+        <div class="row row-cols-1 row-cols-md-2 mobile-offer-bg">
+            <div class="col" style="z-index: 1; background-color: white;" >
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col mobile-offer-left">
+                        <img src="images/edge red.jpeg" alt="">
+                        <h6>MOTOROLA Edge 40</h6>
+                        <p><strike>34999</strike> &#8377;26999 <span>22% Off</span></p>
+                    </div>
+                    <div class="col mobile-right">
+                        <div class="mobile-r1">
+                            <img src="images/s22.jpeg" alt="">
+                            <h6>Samsung S22 FE 5G</h6>
+                        <p><strike>45999</strike> &#8377;29999 <span>25% Off</span></p>
+                        </div>
+                        <div class="mobile-r1">
+                            <img src="images/edge green.jpeg" alt="">
+                            <h6>MOTOROLA Edge 40</h6>
+                        <p><strike>34999</strike> &#8377;26999 <span>22% Off</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row row-cols-1 row-cols-lg-2 " style="margin-bottom: 40px;" >
+            <div class="col four-grid">
+                <div class="four-grid-image">
+                    <img src="images/BQ1.jpeg" alt="">
+                    <h6>Commuters<br><span>Don't Miss</span></h6>
+                </div>
+                <div class="four-grid-image">
+                    <img src="images/bQ2.jpeg" alt="">
+                    <h6>Electric Cycles<br><span>Top Sellers</span></h6>
+                </div>
+                <div class="four-grid-image">
+                    <img src="images/bq3.jpeg" alt="">'
+                    <h6>Zebronics Kyeboard<br><span>garb or Gone</span></h6>'
+                </div>
+                <div class="four-grid-image">
+                    <img src="images/bq4.jpeg" alt="">
+                    <h6>Mobiles<br><span>Most Loved</span></h6>
+                </div>
+            </div>
+            <div class="col four-grid">
+                <div class="four-grid-image2">
+                    <img src="images/attar1.jpeg" alt="">
+                    <h6>ARABIYAT Lamsat Harir Eau de Parfume</h6>
+                        <p><strike>119</strike> &#8377;975 <span>18% Off</span></p>
+                </div>
+                <div class="four-grid-image2">
+                    <img src="images/attar3.jpeg" alt="">
+                    <h6>Ajmal Khususi Cool Moon Floral</h6>
+                        <p><strike>450</strike> &#8377;399 <span>11% Off</span></p>
+                </div>
+                <div class="four-grid-image2">
+                    <img src="images/attar3.jpeg" alt="">
+                    <h6>Ajmal Khususi Cool Moon Floral</h6>
+                        <p><strike>450</strike> &#8377;399 <span>11% Off</span></p>
+                </div>
+                <div class="four-grid-image2">
+                    <img src="images/attar4.jpeg" alt="">
+                    <h6>ARABIYAT Lamsat Harir Attar</h6>
+                        <p><strike>699</strike> &#8377;499 <span>28% Off</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-top-cell">
+                <h6>ABOUT</h6>
+                <p>Contact US</p>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Flipkart Stories</p>
+                <p>Press</p>
+                <p>Flipkart Wholesale</p>
+                <p>Cleartrip</p>
+            </div>
+            <div class="footer-top-cell">
+                <h6>HELP</h6>
+                <p>Payments</p>
+                <p>Shipping</p>
+                <p>Cancellation &</p>
+                <p>Returns</p>
+                <p>FAQ</p>
+                <p>Report Infringement</p>
+            </div>
+            <div class="footer-top-cell">
+                <h6>CONSUMER POLICY</h6>
+                <p>Cancellation &</p>
+                <p>Returns</p>
+                <p>Terms of use</p>
+                <p>Secuity</p>
+                <p>Privacy</p>
+                <p>Site</p>
+            </div>
+            <div class="footer-top-cell">
+                <h6>SOCIAL</h6>
+                <p>Facebook</p>
+                <p>Twitter</p>
+                <p>YouTube</p>
+            </div>
+            <div class="footer-top-cell-line">
+                
+            </div>
+            <div class="footer-top-cell">
+                <h6>CONTACT</h6>
+                <p>Flipkart Internet Private Limited, </p>
+                <p> Buildings Alyssa, Begonia & </p>
+                <p> Clove Embassy Tech Village, </p>
+                <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                <p> Benga</p>
+                <p> Karnataka, India</p>
+            </div>
+            <div class="footer-top-cell">
+                <h6>Registered Office Address:</h6>
+                <p>Flipkart Internet Private Limited, </p>
+                <p> Buildings Alyssa, Begonia & </p>
+                <p> Clove Embassy Tech Village, </p>
+                <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                <p> CIN : U51109KA2012PTC066107 </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>

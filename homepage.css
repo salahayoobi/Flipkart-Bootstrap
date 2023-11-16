@@ -1,0 +1,132 @@
+.categories-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    overflow-x: auto;
+    width: 100%;
+}
+.card-header-img {
+    padding: 5%;
+    margin: 0px auto;
+}
+.mobile-offer{
+    margin-top: 50px;
+}
+.mobile-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+.mobile-r2 img{
+    width: 80%;
+}
+.mobile-offer-left{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.mobile-offer-left p{
+    font-weight: 500;
+}
+.mobile-offer-left p span{
+    color: green;
+}
+.mobile-offer-left h6{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.mobile-offer-left p strike{
+    font-weight: 400
+}
+
+.mobile-r1 p{
+    font-weight: 500;
+}
+.mobile-r1 p span{
+    color: green;
+}
+.mobile-r1 h6{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.mobile-r1 p strike{
+    font-weight: 400
+}
+.mobile-offer-bg{
+    background-image: url(images/Top-selling.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+}
+
+@media only screen and (max-width: 600px){
+
+}
+
+.four-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+.four-grid-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 5px;
+}
+.four-grid-image h6 span, .four-grid-image2 h5 span{
+    color: green;
+}
+.four-grid-image img{
+    width: 80%;
+}
+.four-grid-image2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.176);
+    border-radius: 5px;
+}
+.four-grid-image2 img{
+    width: 50%;
+}
+.four-grid-image2 h6{
+    font-size: 14px;
+}
+.footer{
+    background-color: #333;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.footer-top{
+    overflow-x: auto;
+    color: white;
+}
+.footer-top-cell{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-top-cell h6{
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #777777;
+}
+.footer-top-cell p{
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: auto;
+}
+.footer-top-cell-line{
+    margin: auto auto;
+    width: 1px;
+    height: 200px;
+    background-color: white;
+}
